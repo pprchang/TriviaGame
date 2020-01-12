@@ -6,14 +6,6 @@ $(document).ready(function() {
   var unAnswered = 0;
 
   //=======================Function===================//
-  function reset() {
-    time = 10;
-    correctAnswer = 0;
-    incorrectAnswer = 0;
-    unAnswered = 0;
-    $('#carouselExampleFade').hide();
-    $('#resultTitle').hide();
-  }
 
   function correct() {
     correctAnswer++;
