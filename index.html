@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Trivia Game</title>
+  </head>
+  <body>
+    <!--Title-->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4 text-center font-weight-bold">
+          Most Bizarre World Record
+        </h1>
+        <p class="lead text-center font-weight-bold">
+          5 Most Bizarre World Record You Never Knew Existed
+        </p>
+      </div>
+    </div>
+    <!--Start Slide-->
+    <div
+      id="startTitle"
+      class="carousel-item active bg-secondary text-center text-white p-3"
+      data-interval="100000"
+    >
+      <br />
+      <button id="butt22" type="button" class="btn btn-success">
+        <h1 class="font-weight-bold">Start</h1>
+      </button>
+      <br />
+      <br />
+      <h6 class="font-weight-bold">Click START to be AMAZED!!</h6>
+    </div>
+
+    <!--Questions Slides-->
+    <div
+      id="carouselExampleFade"
+      class="carousel slide carousel-fade"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          class="carousel-item active bg-secondary text-center text-white p-3"
+          data-interval="10000"
+        >
+          <h3 class="clock"></h3>
+          <br />
+          <h4 id="ques1"></h4>
+          <br />
+          <button id="butt1" type="button" class="btn btn-primary"></button>
+          <button id="butt2" type="button" class="btn btn-success"></button>
+          <button id="butt3" type="button" class="btn btn-info"></button>
+          <br />
+          <br />
+          <button class="butt3 btn btn-danger" type="button">
+            Done
+          </button>
+          <br />
+          <br />
+          <h6>Question 1 of 5</h6>
+        </div>
+
+        <div
+          class="carousel-item bg-secondary text-center text-white p-3"
+          data-interval="100000"
+        >
+          <h3 class="clock"></h3>
+          <br />
+          <h4 id="ques2"></h4>
+          <br />
+          <button id="butt4" type="button" class="btn btn-primary"></button>
+          <button id="butt5" type="button" class="btn btn-success"></button>
+          <button id="butt6" type="button" class="btn btn-info"></button>
+          <br />
+          <br />
+          <button class="butt3 btn btn-danger" type="button">
+            Done
+          </button>
+          <br />
+          <br />
+          <h6>Question 2 of 5</h6>
+        </div>
+
+        <div
+          class="carousel-item bg-secondary text-center text-white p-3"
+          data-interval="100000"
+        >
+          <h3 class="clock"></h3>
+          <br />
+          <h4 id="ques3"></h4>
+          <br />
+          <button id="butt7" type="button" class="btn btn-primary"></button>
+          <button id="butt8" type="button" class="btn btn-success"></button>
+          <button id="butt9" type="button" class="btn btn-info"></button>
+          <br />
+          <br />
+          <button class="butt3 btn btn-danger" type="button">
+            Done
+          </button>
+          <br />
+          <br />
+          <h6>Question 3 of 5</h6>
+        </div>
+
+        <div
+          class="carousel-item bg-secondary text-center text-white p-3"
+          data-interval="100000"
+        >
+          <h3 class="clock"></h3>
+          <br />
+          <h4 id="ques4"></h4>
+          <br />
+          <button id="butt10" type="button" class="btn btn-primary"></button>
+          <button id="butt11" type="button" class="btn btn-success"></button>
+          <button id="butt12" type="button" class="btn btn-info"></button>
+          <br />
+          <br />
+          <button class="butt3 btn btn-danger" type="button">
+            Done
+          </button>
+          <br />
+          <br />
+          <h6>Question 4 of 5</h6>
+        </div>
+
+        <div
+          class="carousel-item bg-secondary text-center text-white p-3"
+          data-interval="100000"
+        >
+          <h3 class="clock"></h3>
+          <br />
+          <h4 id="ques5"></h4>
+          <br />
+          <button id="butt13" type="button" class="btn btn-primary"></button>
+          <button id="butt14" type="button" class="btn btn-success"></button>
+          <button id="butt15" type="button" class="btn btn-info"></button>
+          <br />
+          <br />
+          <button class="butt3 btn btn-danger" type="button">
+            Done
+          </button>
+          <br />
+          <br />
+          <h6>Question 5 of 5</h6>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleFade"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleFade"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!--Result Page-->
+    <div
+      id="resultTitle"
+      class="carousel-item active bg-secondary text-center text-white p-3"
+      data-interval="100000"
+    >
+      <br />
+      <h2 class="font-weight-bold">Your Result:</h2>
+      <br />
+      <div id="Correct"></div>
+      <div id="Incorrect"></div>
+      <div id="Unanswered"></div>
+      <br />
+      <br />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="./assets/javascript/app.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
