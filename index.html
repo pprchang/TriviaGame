@@ -14,12 +14,13 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Trivia Game</title>
   </head>
   <body>
     <!--Title-->
     <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+      <div class="container text-white">
         <h1 class="display-4 text-center font-weight-bold">
           Most Bizarre World Record
         </h1>
@@ -40,17 +41,18 @@
       </button>
       <br />
       <br />
-      <h6 class="font-weight-bold">Click START to be AMAZED!!</h6>
+      <h2 class="font-weight-bold">Click START to be AMAZED!!</h2>
     </div>
 
     <!--Questions Slides-->
+    
     <div
       id="carouselExampleFade"
       class="carousel slide carousel-fade"
       data-ride="carousel"
     >
       <div class="carousel-inner">
-        <div
+        <div id="question"
           class="carousel-item active bg-secondary text-center text-white p-3"
           data-interval="10000"
         >
@@ -58,14 +60,24 @@
           <br />
           <h4 id="ques1"></h4>
           <br />
-          <input id="butt1" type="radio" name="answer1" value="1">40ft, 4.64in</input>
-          <br>
-          <input id="butt2" type="radio" name="answer1" value="2">50ft, 5.64in</input>
-          <br>
-          <input id="butt3" type="radio" name="answer1" value="3">35ft, 2.36in</input>
+          <button
+            id="butt1"
+            type="button"
+            class="btn btn-primary correct-answer answer-btn1 font-weight-bold"
+          ></button>
+          <button
+            id="butt2"
+            type="button"
+            class="btn btn-success answer-btn1 font-weight-bold"
+          ></button>
+          <button
+            id="butt3"
+            type="button"
+            class="btn btn-info answer-btn1 font-weight-bold"
+          ></button>
           <br />
           <br />
-          <button class="butt3 btn btn-danger" type="button">
+          <button class="butt3 btn btn-danger font-weight-bold" type="button">
             Done
           </button>
           <br />
@@ -73,7 +85,7 @@
           <h6>Question 1 of 5</h6>
         </div>
 
-        <div
+        <div id="question"
           class="carousel-item bg-secondary text-center text-white p-3"
           data-interval="100000"
         >
@@ -81,14 +93,24 @@
           <br />
           <h4 id="ques2"></h4>
           <br />
-          <input id="butt1" type="radio" name="answer2" value="1">Over 1,000 hours of body modification</input>
-          <br>
-          <input id="butt2" type="radio" name="answer2" value="2">500 hours of body modification</input>
-          <br>
-          <input id="butt3" type="radio" name="answer2" value="3">300 hours of body modification</input>
+          <button
+            id="butt4"
+            type="button"
+            class="btn btn-primary answer-btn2 correct-answer font-weight-bold"
+          ></button>
+          <button
+            id="butt5"
+            type="button"
+            class="btn btn-success answer-btn2 font-weight-bold"
+          ></button>
+          <button
+            id="butt6"
+            type="button"
+            class="btn btn-info answer-btn2 font-weight-bold"
+          ></button>
           <br />
           <br />
-          <button class="butt3 btn btn-danger" type="button">
+          <button class="butt3 btn btn-danger font-weight-bold" type="button">
             Done
           </button>
           <br />
@@ -96,7 +118,7 @@
           <h6>Question 2 of 5</h6>
         </div>
 
-        <div
+        <div id="question"
           class="carousel-item bg-secondary text-center text-white p-3"
           data-interval="100000"
         >
@@ -104,14 +126,24 @@
           <br />
           <h4 id="ques3"></h4>
           <br />
-          <input id="butt1" type="radio" name="answer3" value="1">2,525</input>
-          <br>
-          <input id="butt2" type="radio" name="answer3" value="2">3,500</input>
-          <br>
-          <input id="butt3" type="radio" name="answer3" value="3">1,457</input>
+          <button
+            id="butt7"
+            type="button"
+            class="btn btn-primary answer-btn3 font-weight-bold"
+          ></button>
+          <button
+            id="butt8"
+            type="button"
+            class="btn btn-success answer-btn3 correct-answer font-weight-bold"
+          ></button>
+          <button
+            id="butt9"
+            type="button"
+            class="btn btn-info answer-btn3 font-weight-bold"
+          ></button>
           <br />
           <br />
-          <button class="butt3 btn btn-danger" type="button">
+          <button class="butt3 btn btn-danger font-weight-bold" type="button">
             Done
           </button>
           <br />
@@ -119,7 +151,7 @@
           <h6>Question 3 of 5</h6>
         </div>
 
-        <div
+        <div id="question"
           class="carousel-item bg-secondary text-center text-white p-3"
           data-interval="100000"
         >
@@ -127,14 +159,24 @@
           <br />
           <h4 id="ques4"></h4>
           <br />
-          <input id="butt1" type="radio" name="answer4" value="1">5ft, 7in</input>
-          <br>
-          <input id="butt2" type="radio" name="answer4" value="2">14ft, 6in</input>
-          <br>
-          <input id="butt3" type="radio" name="answer4" value="3">3ft, 7in</input>
+          <button
+            id="butt10"
+            type="button"
+            class="btn btn-primary answer-btn4 correct-answer font-weight-bold"
+          ></button>
+          <button
+            id="butt11"
+            type="button"
+            class="btn btn-success answer-btn4 font-weight-bold"
+          ></button>
+          <button
+            id="butt12"
+            type="button"
+            class="btn btn-info answer-btn4 font-weight-bold"
+          ></button>
           <br />
           <br />
-          <button class="butt3 btn btn-danger" type="button">
+          <button class="butt3 btn btn-danger font-weight-bold" type="button">
             Done
           </button>
           <br />
@@ -142,7 +184,7 @@
           <h6>Question 4 of 5</h6>
         </div>
 
-        <div
+        <div id="question"
           class="carousel-item bg-secondary text-center text-white p-3"
           data-interval="100000"
         >
@@ -150,14 +192,24 @@
           <br />
           <h4 id="ques5"></h4>
           <br />
-          <input id="butt1" type="radio" name="answer5" value="1">8ft, 8in tall and 5ft, 6in wide</input>
-          <br>
-          <input id="butt2" type="radio" name="answer5" value="2">5ft, 6in tall and 6ft, 4in wide</input>
-          <br>
-          <input id="butt3" type="radio" name="answer5" value="3">11ft, 7.8in tall and 6ft, 7.8in wide</input>
+          <button
+            id="butt13"
+            type="button"
+            class="btn btn-primary answer-btn5 font-weight-bold"
+          ></button>
+          <button
+            id="butt14"
+            type="button"
+            class="btn btn-success answer-btn5 font-weight-bold"
+          ></button>
+          <button
+            id="butt15"
+            type="button"
+            class="btn btn-info answer-btn5 correct-answer font-weight-bold"
+          ></button>
           <br />
           <br />
-          <button class="butt3 btn btn-danger" type="button">
+          <button class="butt3 btn btn-danger font-weight-bold" type="button">
             Done
           </button>
           <br />
@@ -184,6 +236,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    </div>
 
     <!--Result Page-->
     <div
@@ -192,14 +245,63 @@
       data-interval="100000"
     >
       <br />
-      <h2 class="font-weight-bold">Your Result:</h2>
+      <div><h2 class="font-weight-bold">Your Results:</h2></div>
+      <hr class="bg-white">
       <br />
-      <div id="Correct"></div>
-      <div id="Incorrect"></div>
-      <div id="Unanswered"></div>
+      <h5><div id="Correct"></div></h5>
+      <h5><div id="Incorrect"></div></h5>
+      <h5><div id="Unanswered"></div></h5>
+      <br />
+      <div><h2>Correct Answers:</h2></div>
+      <hr class="bg-white">
+      <br />
+      <div><h4>Farthest arrow shot using feet:</h4></div>
+      <button id="butt1" type="button" class="btn btn-success font-weight-bold">
+        <h5>40ft, 4.64in</h5>
+      </button>
       <br />
       <br />
-    </div>
+      <img src="assets/images/arrow.jpg" alt="Farthest Arrow" />
+      <br />
+      <br />
+      <div><h4>Most tattooed man:</h4></div>
+      <button id="butt1" type="button" class="btn btn-success font-weight-bold">
+        <h5>Over 1,000 hours of body modification</h5>
+      </button>
+      <br />
+      <br />
+      <img src="assets/images/tattooed.jpg" alt="Most Tattoeed Man" />
+      <br />
+      <br />
+      <div><h4>Most toothpicks in a bread:</h4></div>
+      <button id="butt1" type="button" class="btn btn-success font-weight-bold">
+        <h5>3,500</h5>
+      </button>
+      <br />
+      <br />
+      <img src="assets/images/toothpick.jpg" alt="Most Toothpick" />
+      <br />
+      <br />
+      <div><h4>Longest hair on a teenager:</h4></div>
+      <button id="butt1" type="button" class="btn btn-success font-weight-bold">
+        <h5>5ft, 7in</h5>
+      </button>
+      <br />
+      <br />
+      <img
+        src="assets/images/longestHair.jpg"
+        alt="Teenage with the Longest Hair"
+      />
+      <br />
+      <br />
+      <div><h5>Largest table tennis/ping pong bat:</h5></div>
+      <button id="butt1" type="button" class="btn btn-success">
+        <h5>11ft, 7.8in tall and 6ft, 7.8in wide</h5>
+      </button>
+      <br />
+      <br />
+      <img src="assets/images/pingpong.jpg" alt="Largest Ping Pong Bat" />
+      <br />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

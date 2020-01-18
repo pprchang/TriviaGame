@@ -1,0 +1,14 @@
+.jumbotron,
+body {
+  background-image: url('../images/background.jpg');
+}
+
+#startTitle,
+#resultTitle,
+#question {
+  background-image: url('../images/slide.png');
+}
+
+img {
+  border-radius: 8px;
+}
