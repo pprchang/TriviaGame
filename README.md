@@ -21,7 +21,6 @@ The user will be given five questions and the user have 30 seconds to answer the
 6. Use jQuery to display result to html
 7. Add audio to enhance user experience
 
-
 ## *Contributing* 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.  Thank you for your corporation.
 
