@@ -7,10 +7,11 @@ The user will be given five questions and the user have 30 seconds to answer the
 ## *Built With*
 
 #### Code Editor: 
-Visual Stuido Code (https://code.visualstudio.com/)
+- Visual Stuido Code (https://code.visualstudio.com/)
 
 #### Layout and Styling: 
-Bootstrap 4 (https://getbootstrap.com/)
+- Bootstrap 4 (https://getbootstrap.com/)
+- CSS 3
 
 #### Javascript:
 1. Store questions and answers in an array
